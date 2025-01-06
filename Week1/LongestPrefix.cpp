@@ -15,13 +15,3 @@ string longestCommonPrefix(vector<string>& strs) {
     }
     return prefix;    
 }
-
-int main() {
-    vector<string> strs1 = {"flower", "flow", "flight"};
-    vector<string> strs2 = {"dog", "racecar", "car"};
-    
-    cout << " Example 1: " << longestCommonPrefix(strs1) << endl; // Output: "fl"
-    cout << " Example 2: " << longestCommonPrefix(strs2) << endl; // Output: ""
-    
-    return 0;
-}
